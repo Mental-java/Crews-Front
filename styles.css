@@ -1,0 +1,185 @@
+/* 전체 페이지 스타일링 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 헤더 스타일링 */
+header {
+    background-color: #ffffff;
+    color: #fff; /* 글자 색을 흰색으로 설정합니다. */
+    padding: 0px; /* 위아래 10px의 패딩을 추가합니다. */
+    height: 90px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+nav {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container {
+    margin-right: 390px; /* 로고 컨테이너와 메뉴 컨테이너 사이의 간격 설정 */
+    margin-bottom: 10px;
+}
+.menu-container {
+    display: flex; /* 메뉴 항목을 가로로 나열 */
+    align-items: center; /* 메뉴 항목을 수직 가운데 정렬 */
+}
+/* ul을 부모로 하는 li를 오른쪽에 정렬합니다. */
+ul {
+    display: flex;
+    justify-content: flex-end; /* li 항목을 오른쪽에 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+li {
+    display: inline; /* 항목을 수평으로 정렬합니다. */
+    margin-left: 20px;
+    margin-right: 30px; /* 항목 사이의 간격을 설정합니다. */
+    
+}
+
+a:hover {
+    color: rgb(96, 96, 211); /* 링크 색상을 파란색으로 변경 */
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
+
+.top-box {
+    background-color: #000928;
+    height: 17px; /* 원하는 세로 높이로 설정 */
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-height: 60px; /* 원하는 높이로 설정 */
+    max-width: auto; /* 가로 크기를 자동으로 조정 */
+}
+
+/* styles.css */
+
+aside {
+    background-color: #eee;
+    padding: 0;
+    height: 100vh;
+    width: 220px; /* 원하는 넓이로 설정 (예: 20%) */
+    margin: 0; /* 화면의 높이에 맞게 설정 */
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+/* 메인 콘텐츠 스타일링 */
+main {
+    display: flex;
+}
+
+/* 섹션 스타일링 (기능 구현에 따라 조정) */
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+.introduce-box {
+    background-color: #000928; /* 남색으로 배경색 설정 */
+    height: 200px; /* 원하는 높이로 설정 */
+    margin-top: auto;
+}
+aside .sidebar {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+  }
+
+  .level-image {
+    max-height: 500px; /* 원하는 크기로 최대 높이를 늘립니다. */
+    width: auto; /* 가로 크기는 자동으로 조정하여 비율을 유지합니다. */
+    display: block;
+    margin: 10px auto 0;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 20px; /* 원하는 글꼴 크기 설정 */
+    color: #333; /* 텍스트 색상 설정 */
+    text-align: center; /* 가운데 정렬 */
+    margin-top: 5px; /* level-image 아래로 이동 */
+}
+.diamond-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image-number {
+    font-size: 18px;
+    color: #777;
+    margin-left: 10px;
+}
+.diamond-info img {
+    max-width: 30px; /* 원하는 최대 가로 크기로 설정 */
+    max-height: 30px; /* 원하는 최대 세로 크기로 설정 */
+}
+
+.logout-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout-button button {
+    background-color: #D9D9D9; /* 로그아웃 버튼의 배경색을 설정하세요. */
+    color: #0f0b0b; /* 버튼 텍스트 색상을 설정하세요. */
+    padding: 10px 20px; /* 원하는 내용과 버튼 크기에 따라 패딩을 조정하세요. */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.crew-list {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.crew-list h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.crew-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* 요소를 수직으로 배치하도록 설정 */
+}
+
+.crew-list li {
+    margin: 10px 0;
+}
+
+.crew-list a {
+    text-decoration: none;
+    color: #007bff; /* 크루 링크의 색상을 설정하세요. */
+    font-weight: bold;
+    font-size: 18px;
+}
+
