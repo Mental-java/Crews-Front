@@ -1,0 +1,82 @@
+iframe {
+    width: 100%; 
+    height: 700px; 
+    border: 0;
+    
+}
+
+/* 크루 네비게이션 */
+.up-calender {
+    text-align: center;
+}
+
+.navi {
+    height: 5px;
+    background: #000000;
+}
+
+.up-calender li {
+    font-size: 30px;
+    display: inline;
+    margin: 0 10px; 
+    margin-left: 200px;
+}
+
+/* 소개글 */
+.intro-title {
+    font-size: 20px;
+}
+
+.intro-content {
+    font-size: 15px;
+}
+
+/* 오른쪽 바 */
+aside .rightbar {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+.rightbar {
+    background-color: white;
+}
+
+/* 크루원 리스트 글상자 */
+.crewon-list-box {
+    font-size: 25px;
+    margin-left: 10px;
+    background-color: rgb(17, 17, 32);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* 크루원 리스트 */
+
+.crewon-lists li {
+    font-size: 22px;
+}
+
+
+
+.hr {
+    border: 0;
+    height: 2px;
+    background: #000000;
+    margin-top: 250px;
+}
+
+/* 크루원 순위 */
+
+.rank-list {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.rank-list img {
+    max-height: 25px;
+    margin-right: 20px;
+}
