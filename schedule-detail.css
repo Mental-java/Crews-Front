@@ -18,15 +18,15 @@ iframe {
 .up-calender li {
     font-size: 25px;
     display: inline;
-    margin: 0 150px;   
+    margin: 0 150px;
 }
 
 .up-calender li a {
     text-decoration: none; /* 밑줄 없애기 */
     color: #737373; /* 텍스트 색상을 검정색으로 변경 */
 }
-.up-calender li a:hover {
-    color: black; /* 텍스트 색상을 검정색으로 변경 */
+.up-calender li a:hover{
+    color: black;
 }
 
 /* 소개글 */
@@ -99,7 +99,7 @@ aside .rightbar {
     clear: left;
 }
 .date{
-    color: #737373;
+    color: black;
     white-space: nowrap; /* 줄바뀜 금지 */
 }
 .write-post-button{
