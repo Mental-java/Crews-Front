@@ -16,10 +16,9 @@ iframe {
 }
 
 .up-calender li {
-    font-size: 30px;
+    font-size: 25px;
     display: inline;
-    margin: 0 10px; 
-    margin-left: 200px;
+    margin: 0 10px;
 }
 
 /* 소개글 */
@@ -44,28 +43,25 @@ aside .rightbar {
 
 /* 크루원 리스트 글상자 */
 .crewon-list-box {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 10px;
     background-color: rgb(17, 17, 32);
     color: aliceblue;
     padding: 10px;
     border-radius: 10px;
     align-items: center;
+    text-align: center;
 }
 
 /* 크루원 리스트 */
 
-.crewon-lists li {
-    font-size: 22px;
+.crewon-lists {
+    height: 730px;
+    overflow-y: scroll;
 }
 
-
-
-.hr {
-    border: 0;
-    height: 2px;
-    background: #000000;
-    margin-top: 250px;
+.crewon-lists li {
+    font-size: 20px;
 }
 
 /* 크루원 순위 */
