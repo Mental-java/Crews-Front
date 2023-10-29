@@ -43,7 +43,6 @@ aside .rightbar {
     display: flex;
     justify-content: center;
     margin: 1em auto;
-    height: 100%;
 }
 
 .rightbar {
@@ -139,7 +138,69 @@ aside .rightbar {
 .post-list a:hover{
     text-decoration-line: underline;
 }
-
+.posting-title{
+    margin-top: -2.5%;
+    clear: left;
+    float: left;
+}
+.posting-title p{
+    font-weight: bold;
+    font-size: 120%;
+}
+.posting-end-line{
+    clear: left;
+    height: 3px;
+    background-color: #000000;
+}
+.posting-detail{
+    float: left;
+    margin-top: -20px;
+    overflow-Y: scroll;
+    overflow-x: hidden;
+}
+.poster-name{
+    font-weight: bold;
+}
+.posting-date{
+    margin-left: 1100px;
+    color: #737373;
+}
+.user-detail{
+    transform: translate(18px);
+}
+.comment{
+    clear:left;
+    float:left;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.comment button{
+    background-color: #000928;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+    margin-left: 1110px;
+}
+.comment button:hover{
+    background-color: #007bff;
+}
+.type-comment{
+    border: none;
+    background-color: lightgray;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.comment ul{
+    margin-top: -5px;
+}
+.type-comment::placeholder{
+    color: #737373;
+}
 
 
 
