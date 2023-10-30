@@ -55,9 +55,9 @@
         </aside>
         <section>
             <div class="up-calender">
-                <li><a href="#">크루 메인 페이지</a></li>
-                <li><a href="#">인증게시판</a></li>
-                <li><a href="#">크루원 평가</a></li>
+                <li onclick="location.href='crew-main.html'">크루 메인 페이지</li>
+                <li class="selected" onclick="location.href='crew-schedule.html'">인증게시판</li>
+                <li>크루원 평가</li>
             </div>
             <br>
             <hr class="upper-line"><br>
@@ -139,6 +139,18 @@
                 </div>
             </div>
         </aside>
-    </main> 
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const listItems = document.querySelectorAll(".up-calender li");
+    
+            listItems.forEach((item) => {
+                item.addEventListener("click", function () {
+                    listItems.forEach((li) => li.classList.remove("selected"));
+                    item.classList.add("selected");
+                });
+            });
+        });
+    </script>
 </body>
 </html>

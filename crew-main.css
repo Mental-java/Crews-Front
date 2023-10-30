@@ -12,13 +12,13 @@ iframe {
     display: inline;
     margin: 0 150px;
     cursor: pointer;
-    color: #737373; /* 기본 텍스트 색상 */
-    text-decoration: none; /* 기본: 밑줄 없음 */
+    color: #737373;
+    text-decoration: none;
 }
 
 .up-calender li.selected {
-    color: black; /* 클릭된 경우 텍스트 색상을 검은색으로 변경 */
-    text-decoration: underline; /* 클릭된 경우 밑줄 추가 */
+    color: black;
+    text-decoration: underline;
 }
 
 .upper-line{
