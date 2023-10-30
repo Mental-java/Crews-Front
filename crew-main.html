@@ -18,9 +18,9 @@
             </div>
             <ul>
                 <li><a href="#">내 캘린더</a></li>
-                <li onclick="location.href='notice-main.html'"><a href="#">공지사항</a></li>
-                <li onclick="location.href='crew-search.html'"><a href="#">크루 찾기</a></li>
-                <li onclick="location.href='mypage.html'"><a href="#">나의 활동</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">크루 찾기</a></li>
+                <li><a href="#">나의 활동</a></li>
             </ul>
         </nav>
     
@@ -55,12 +55,12 @@
         </aside>
         <section>
             <div class="up-calender">
-                <li><a href="#">크루 메인 페이지</a></li>
-                <li><a href="#">인증게시판</a></li>
-                <li><a href="#">크루원 평가</a></li>
+                <li class="selected">크루 메인 페이지</li>
+                <li>인증게시판</li>
+                <li>크루원 평가</li>
             </div>
             <br>
-            <hr>
+            <hr class="upper-line">
             <iframe src="https://calendar.google.com/calendar/embed?src=addressbook%23contacts%40group.v.calendar.google.com&ctz=Asia%2FSeoul" frameborder="0" scrolling="no"></iframe>
             <div>
                 <p class="intro-title">안녕하세요 코등크루입니다.</p>
@@ -110,5 +110,17 @@
             </div>
         </aside>
     </main> 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const listItems = document.querySelectorAll(".up-calender li");
+    
+            listItems.forEach((item) => {
+                item.addEventListener("click", function () {
+                    listItems.forEach((li) => li.classList.remove("selected"));
+                    item.classList.add("selected");
+                });
+            });
+        });
+    </script>
 </body>
 </html>
