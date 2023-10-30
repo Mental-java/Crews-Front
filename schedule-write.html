@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로젝트 제목</title>
     <link rel="stylesheet" href="styles.css"> 
-    <link rel="stylesheet" href="crew-schedule.css"> 
+    <link rel="stylesheet" href="schedule-write.css"> 
 </head>
 <body>
     <header>
@@ -18,9 +18,9 @@
             </div>
             <ul>
                 <li><a href="#">내 캘린더</a></li>
-                <li onclick="location.href='notice-main.html'"><a href="#">공지사항</a></li>
-                <li onclick="location.href='crew-search.html'"><a href="#">크루 찾기</a></li>
-                <li onclick="location.href='mypage.html'"><a href="#">나의 활동</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">크루 찾기</a></li>
+                <li><a href="#">나의 활동</a></li>
             </ul>
         </nav>
     
@@ -60,41 +60,25 @@
                 <li>크루원 평가</li>
             </div>
             <br>
-            <hr class="upper-line"><br>
-            <div class="posting">
-                <ul class="upper-posting">
-                    <li><p class="date">오늘 날짜 2023-10-28</p></li>
-                    <li><button class="write-post-button" onclick="location.href='schedule-write.html'">글쓰기</button></li>
-                </ul>
+            <hr class="upper-line">
+            <div class="write-board">게시글 작성</div>
+            <hr>
+            <div>
+                <div class="write-title">
+                    <p>제목</p>
+                    <input type="text" required>
+                </div>
+            </div
+            <div>
+                <div class="write-content">
+                    <p>내용</p>
+                    <textarea required rows="30" cols="200"></textarea>
+                </div>
             </div>
-            <hr class="under-line">
-            <div class="post-list">
-                <ul>
-                    <li><a href="#">2023-10-28 인증</a></li>
-                    <li><p>남궁주형</p></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href="#">2023-10-28 인증</a></li>
-                    <li><p>남궁주형</p></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href="#">2023-10-28 인증</a></li>
-                    <li><p>남궁주형</p></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href="#">2023-10-28 인증</a></li>
-                    <li><p>남궁주형</p></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href="#">2023-10-28 인증</a></li>
-                    <li><p>남궁주형</p></li>
-                </ul>
+
+            <div class="submit-button">
+                <button type="submit">등록</button>
             </div>
-            
 
         </section>
         <aside class="rightbar">
@@ -140,17 +124,5 @@
             </div>
         </aside>
     </main>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const listItems = document.querySelectorAll(".up-calender li");
-    
-            listItems.forEach((item) => {
-                item.addEventListener("click", function () {
-                    listItems.forEach((li) => li.classList.remove("selected"));
-                    item.classList.add("selected");
-                });
-            });
-        });
-    </script>
 </body>
 </html>
