@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트 제목</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main-page.css"> 
+</head>
+<body>
+    <header>
+        <div class="top-box">
+            
+        </div>
+        <nav>
+            <div class="logo-container">
+                <img src="images/crews-logo.png" alt="메인 로고">
+            </div>
+            <ul>
+                <li onclick="location.href='main-page.html'"></li>><a href="#">내 캘린더</a></li>
+                <li onclick="location.href='notice-main.html'"><a href="#">공지사항</a></li>
+                <li onclick="location.href='crew-search.html'"><a href="#">크루 찾기</a></li>
+                <li onclick="location.href='mypage.html'"><a href="#">나의 활동</a></li>
+            </ul>
+        </nav>v
+       
+    </header>
+    <main>
+        <aside>
+            <div class="sidebar">
+                <div class="user-info">
+                    <img src="images/level-image.png" alt="1레벨 이미지">
+                    <p class="user-name">크루원 123455</p>
+                    <div class="diamond-info">
+                        <img src="images/diamond-image.png" alt="보석">
+                        <p class="image-number">:&nbsp;&nbsp;<p>42</p></p>
+                    </div>
+                    <div class="logout-button">
+                        <button>로그아웃</button>
+                    </div>
+                    <div class="crew-list">
+                        <h2>내 크루 목록</h2>
+                        <ul>
+                            <li><a href="#">크루 1</a></li>
+                            <li><a href="#">크루 2</a></li>
+                            <li><a href="#">크루 3</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="introduce-box"></div>
+        </aside>
+        <section>
+            <div class="main-side">
+                <div class="main-calendar">
+                    <div>
+                        <iframe src="https://calendar.google.com/calendar/embed?src=addressbook%23contacts%40group.v.calendar.google.com&ctz=Asia%2FSeoul" 
+                                frameborder="0"  height="600" width="700" scrolling="no"></iframe>
+                    </div>
+                    <div class="calendar-detail">
+                        <div class="calendar-date">
+                            <p>21</p>
+                        </div>
+                        <div class="today-todo">
+                            <ul class="todo-list">
+                                <li>
+                                    <label for="todo-1">10:00AM 기상하기</label>
+                                    <input type="checkbox" id="todo-1">
+                                </li>
+                                <li>
+                                    <label for="todo-2">1km뛰기</label>
+                                    <input type="checkbox" id="todo-2">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="regist-calendar">
+                    <div class="regist-form">
+                        <h2>일정 등록</h2>
+                        <form>
+                            <label for="event-name">일정 이름:</label>
+                            <input type="text" id="event-name" name="event-name"><br><br><br>
+
+                            <label for="start-date">시작 일자:</label>
+                            <input type="date" id="start-date" name="start-date"><br><br><br>
+
+                            <label for="end-date">종료 일자:</label>
+                            <input type="date" id="end-date" name="end-date"><br><br><br>
+
+                            <label for="event-info">일정 정보:</label><br>
+                            <textarea id="event-info" name="event-info" rows="8" cols="30"></textarea><br>
+
+                            <div class="submit-button">
+                                <input type="submit" value="추가">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main> 
+</body>
+</html>

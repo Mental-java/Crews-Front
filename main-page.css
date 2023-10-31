@@ -1,0 +1,68 @@
+.main-side{
+    width: 100%;
+    display: flex;
+}
+
+.regist-form{
+    margin: 25px;
+}
+
+.regist-calendar{
+    width: 300px;
+    height: 800px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.submit-button {
+    margin-top: 100px;
+    text-align: right;
+}
+
+.submit-button input {
+    width: 100px;
+    height: 40px;
+    background-color: #000928;
+    color: white;
+}
+
+.calendar-detail{
+    width: 700px;
+    height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.calendar-date{
+    background-color: #B6B6B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.calendar-date p{
+    text-align: center; /* 텍스트를 중앙에 배치 */
+    color: white;
+    font-size: 40px; /* 글꼴 크기 설정 */
+    line-height: 30px;
+}
+
+.todo-list {
+    list-style: inside; /* 빨간색 점을 리스트 앞에 추가 */
+    display: block; /* 리스트를 수직으로 배치 */
+    padding-left: 0; /* 리스트의 왼쪽 간격 제거 */
+}
+
+.todo-list li {
+    list-style: none; /* 리스트 아이템에서 기본 불릿 제거 */
+    display: flex; /* 리스트 아이템을 수평으로 배치 */
+    align-items: center; /* 텍스트를 세로 가운데 정렬 */
+    margin-top: 5px;
+}
+
+.todo-list li::before {
+    content: "\2022"; /* 빨간색 점을 Unicode 문자로 설정 */
+    color: red; /* 빨간색으로 설정 */
+    margin-right: 10px; /* 빨간색 점과 텍스트 간격 조절 */
+}
+
