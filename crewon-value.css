@@ -1,0 +1,60 @@
+.crewon-value-board {
+    background-color: rgb(183, 183, 183);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.crewon-value-board p {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.crewon-value-list {
+    overflow: auto;
+    white-space: nowrap;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.crewon-value-list p {
+    margin-left: 20px;
+    font-size: 15px;
+    width: 1000px;
+}
+
+.crewon-value-lists p{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.crewon-value-lists image{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.crewon-value-lists button{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.crewon-value-lists img {
+    width: 15px;
+}
+
+.plus-button {
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width:20px;
+    height: 20px;
+}
+
+.minus-button {
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
