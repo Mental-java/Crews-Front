@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로젝트 제목</title>
     <link rel="stylesheet" href="styles.css"> 
-    <link rel="stylesheet" href="crew-schedule.css"> 
+    <link rel="stylesheet" href="crew-main.css">
+    <link rel="stylesheet" href="crew-schedule.css">
 </head>
 <body>
     <header>
@@ -17,10 +18,10 @@
                 <img src="images/crews-logo.png" alt="메인 로고">
             </div>
             <ul>
-                <li onclick="location.href='main-page.html'"><a href="#">내 캘린더</a></li>
-                <li onclick="location.href='notice-main.html'"><a href="#">공지사항</a></li>
-                <li onclick="location.href='crew-search.html'"><a href="#">크루 찾기</a></li>
-                <li onclick="location.href='mypage.html'"><a href="#">나의 활동</a></li>
+                <li><a href="#">내 캘린더</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">크루 찾기</a></li>
+                <li><a href="#">나의 활동</a></li>
             </ul>
         </nav>
     
@@ -45,9 +46,6 @@
                             <li><a href="#">크루 2</a></li>
                             <li><a href="#">크루 3</a></li>
                         </ul>
-                    </div>
-                    <div class="rightbar">
-
                     </div>
                 </div>
             </div>
@@ -94,8 +92,6 @@
                     <li><p>남궁주형</p></li>
                 </ul>
             </div>
-            
-
         </section>
         <aside class="rightbar">
             <div class="rightbar">
@@ -142,7 +138,7 @@
                 </div>
             </div>
         </aside>
-    </main>
+    </main> 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const listItems = document.querySelectorAll(".up-calender li");
