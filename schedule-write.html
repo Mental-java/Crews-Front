@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로젝트 제목</title>
     <link rel="stylesheet" href="styles.css"> 
-    <link rel="stylesheet" href="schedule-write.css"> 
+    <link rel="stylesheet" href="crew-main.css"> 
+    <link rel="stylesheet" href="schedule-write.css">
 </head>
 <body>
     <header>
@@ -46,9 +47,6 @@
                             <li><a href="#">크루 3</a></li>
                         </ul>
                     </div>
-                    <div class="rightbar">
-
-                    </div>
                 </div>
             </div>
             <div class="introduce-box"></div>
@@ -72,19 +70,21 @@
             <div>
                 <div class="write-content">
                     <p>내용</p>
-                    <textarea required rows="30" cols="200"></textarea>
+                    <textarea required rows="15" cols="100"></textarea>
                 </div>
             </div>
 
             <div class="submit-button">
                 <button type="submit">등록</button>
             </div>
-
         </section>
         <aside class="rightbar">
             <div class="rightbar">
                 <div class="crewon-list">
-                    <div class="crewon-list-box">크루원 리스트</div>
+                    <div class="crewon-list-box">
+                        <p>크루원 리스트</p>
+                        <img class="alert" src="images/alert.png" alt="신고">
+                    </div>
                     <div class="crewon-lists">
                         <ol>
                             <li>크루원 1</li><hr>
@@ -123,6 +123,18 @@
                 </div>
             </div>
         </aside>
-    </main>
+    </main> 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const listItems = document.querySelectorAll(".up-calender li");
+    
+            listItems.forEach((item) => {
+                item.addEventListener("click", function () {
+                    listItems.forEach((li) => li.classList.remove("selected"));
+                    item.classList.add("selected");
+                });
+            });
+        });
+    </script>
 </body>
 </html>

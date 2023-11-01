@@ -13,7 +13,7 @@
 
 .date{
     color: #737373;
-    white-space: nowrap; /* 줄바뀜 금지 */
+    white-space: nowrap;
 }
 
 .write-post-button{
@@ -31,6 +31,10 @@
 
 .write-post-button:hover {
     background-color: #007bff;
+}
+
+.post-list ul {
+    justify-content: space-between
 }
 
 .post-list{
