@@ -57,6 +57,17 @@ aside .rightbar {
     border-radius: 10px;
     align-items: center;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crewon-list-box p {
+    margin: 0; /* 문단의 기본 여백 제거 */
+}
+
+.alert {
+    width: 20px;
+    height: 20px;
 }
 
 /* 크루원 리스트 */
