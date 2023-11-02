@@ -36,3 +36,7 @@ th{
     height: 30px;
     margin: auto;
 }
+
+.list-table th:nth-child(2):hover {
+    text-decoration: underline;
+}
