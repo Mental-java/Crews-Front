@@ -171,6 +171,13 @@ aside .sidebar {
 
 .crew-list li {
     margin: 10px 0;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+    border-radius: 5px;
+}
+
+.crew-list li:hover {
+    background-color: skyblue;
 }
 
 .crew-list a {
@@ -252,5 +259,3 @@ aside .sidebar {
     border-radius: 5px;
     font-size: 16px; /* 버튼 텍스트 크기 설정 */
 }
-
-
