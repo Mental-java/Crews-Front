@@ -23,7 +23,11 @@
                 <li onclick="location.href='mypage.html'"><a href="#">나의 활동</a></li>
             </ul>
         </nav>
-       
+        <script>
+            function openPopup() {
+              window.open('report-popup.html', '팝업 창', 'width=600, height=800');
+            }
+          </script>
     </header>
     <main>
         <aside>
@@ -93,7 +97,7 @@
                 </div>
 
                 <div class="buttons">
-                    <button class="report-button">신고하기</button>
+                    <button class="report-button" onclick="openPopup()">신고하기</button>
                     <button class="back-button" onclick="location.href='crew-search.html'">목록으로 돌아가기</button>
                 </div>
                 
