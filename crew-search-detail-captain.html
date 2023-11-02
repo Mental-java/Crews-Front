@@ -6,6 +6,11 @@
     <title>프로젝트 제목</title>
     <link rel="stylesheet" href="styles.css"> 
     <link rel="stylesheet" href="crew-search-detail-captian.css"> 
+    <script>
+        function openPopup() {
+          window.open('Current-status.html', '팝업 창', 'width=600, height=800');
+        }
+      </script>
 </head>
 <body>
     <header>
@@ -73,7 +78,7 @@
                         </div>
                     </div>
                     <div class="captain-buttons">
-                        <button class="Application-Status">신청현황</button>
+                        <button class="Application-Status" onclick="openPopup()">신청현황</button>
                         <button class="Modify">수정하기</button>
                     </div>
                 </div>

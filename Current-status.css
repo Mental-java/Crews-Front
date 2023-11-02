@@ -1,0 +1,113 @@
+/* Current-status.css */
+
+/* 스타일링 팝업 창 백그라운드 */
+.popup {
+    background-color: rgba(0, 0, 0, 0.8); /* 어두운 배경 색상 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.applicant-list{
+    margin: 40px;
+}
+
+.applicant-title {
+    text-align: center;
+    background-color: #000928;
+    border-radius: 5px; /* 테두리를 둥글게 만듭니다 */
+    margin-bottom: 20px; /* 제목과 양식 사이 여백 추가 */
+    width: 100%;
+  }
+
+  .title{
+    color: white;
+    padding: 5px;
+  }
+
+/* 팝업 창 내부의 신청현황 */
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 팝업 창 내부의 신청현황 제목 */
+.popup-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333; /* 어두운 배경 색상 */
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* 팝업 창 내부의 신청현황 목록 */
+.popup-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* 신청자 아이템 */
+.applicant-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 6px;
+}
+
+/* 신청자 이름과 보석 수 */
+.applicant-info {
+    display: flex;
+    align-items: center;
+}
+.nickname-diamond{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 8px solid black;
+}
+
+.nickname{
+    font-weight: bold;
+    margin-right: 54px;
+    font-size: 22px;
+}
+
+.diamond{
+    font-weight: bold;
+    font-size: 22px;   
+}
+
+.applicant-name {
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.diamond-count {
+    font-weight: bold;
+    color: #87CEEB;; /* 금색 */
+}
+
+/* 승인 및 거부 버튼 */
+.approve-button, .reject-button {
+    padding: 5px 30px;
+    background-color: #D9D9D9; /* 파란색 */
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.approve-button:hover, .reject-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 마우스 호버 시 그림자 효과를 적용합니다. */
+}
