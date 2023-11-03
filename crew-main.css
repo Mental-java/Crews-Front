@@ -94,3 +94,11 @@ aside .rightbar {
     max-height: 25px;
     margin-right: 20px;
 }
+.edit-button{
+    float: right;
+    
+}
+.edit-button-logo{
+    width: 30px;
+    height: 30px;   
+}
