@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로젝트 제목</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="crew-main.css">
     <link rel="stylesheet" href="schedule-detail.css"> 
 </head>
 <body>
@@ -41,9 +42,9 @@
                     <div class="crew-list">
                         <h2>내 크루 목록</h2>
                         <ul>
-                            <li><a href="#">크루 1</a></li>
-                            <li><a href="#">크루 2</a></li>
-                            <li><a href="#">크루 3</a></li>
+                            <li><a href="crew-main.html">코딩크루</a></li>
+                            <li><a href="crew-main.html">크루 2</a></li>
+                            <li><a href="crew-main.html">크루 3</a></li>
                         </ul>
                     </div>
                     <div class="rightbar">
@@ -55,9 +56,9 @@
         </aside>
         <section>
             <div class="up-calender">
-                <li><a href="#">크루 메인 페이지</a></li>
-                <li><a href="#">인증게시판</a></li>
-                <li><a href="#">크루원 평가</a></li>
+                <li onclick="location.href='crew-main.html'">크루 메인 페이지</li>
+                <li class="selected" onclick="location.href='crew-schedule.html'">인증게시판</li>
+                <li onclick="location.href='crewon-value.html'">크루원 평가</li>
             </div>
             <br>
             <hr class="upper-line"><br>
