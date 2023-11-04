@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로젝트 제목</title>
-    <link rel="stylesheet" href="crew-control.css">
     <link rel="stylesheet" href="admin-common.css">
+    <link rel="stylesheet" href="crew-report-history.css">
 </head>
 <body>
     <main>
@@ -25,47 +25,41 @@
             </div>
         </aside>
         <section>
-            <div class="content">
-                <h1 class="crew-control-title">크루 관리</h1>
-
-                <div class="search-container">
-                    <input type="text" class="search-input" placeholder="크루 검색...">
-                    <button>검색</button>
-                </div>
-
-                <table class="crew-table">
+            <div class="crew-report-list">
+                <h1 class="crew-report-title">크루 신고 내역</h1>
+                <table class="crew-report-table">
                     <thead>
                         <tr>
+                            <th>신고자 ID</th>
                             <th>크루 번호</th>
-                            <th>크루명</th>
-                            <th>캡틴명</th>
+                            <th>신고 내역</th>
+                            <th>신고 사유</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr onclick="location.href='crew-control-detail.html'">
+                        <tr>
+                            <td>세영</td>
                             <td>001</td>
-                            <td>코딩크루</td>
-                            <td>남궁주형</td>
+                            <td>스팸/도배</td>
+                            <td>불법광고</td>
                         </tr>
                         <tr>
+                            <td>리포터</td>
                             <td>002</td>
-                            <td>굿모닝</td>
-                            <td>영동</td>
+                            <td>욕설/모욕</td>
+                            <td>게시판에 욕설 게시</td>
                         </tr>
                         <tr>
+                            <td>크루즈화이팅</td>
                             <td>003</td>
-                            <td>제명호산책</td>
-                            <td>셍영</td>
-                        </tr>
-                        <tr>
-                            <td>004</td>
-                            <td>커피한잔</td>
-                            <td>스벅이</td>
+                            <td>기타</td>
+                            <td>크루 목적에 맞지 않는 활동을 해요.</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </section>
+        
     </main>
 </body>
 </html>
