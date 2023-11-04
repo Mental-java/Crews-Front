@@ -64,14 +64,16 @@
                     </div>
                     <table class="recode-table">
                         <tr class="recode-tr">
-                            <th class="recode-th" width="100">몸짱크루</th>
-                            <th class="recode-th" width="100"><p class="category">운동</p></th>
-                            <th class="recode-th" width="200">2023.9.12~2023.10.19</th>
+                            <th class="recode-th" width="120">몸짱크루</th>
+                            <th class="recode-th" width="50"><p class="category">운동</p></th>
+                            <th class="recode-th" width="140">2023.9.12~2023.10.19</th>
+                            <th class="recode-th"><p class="rate" onclick="openPopup()">평가하기</p></th>
                         </tr>
                         <tr class="recode-tr">
-                            <th class="recode-th" width="100">데일리단어모임</th>
-                            <th class="recode-th" width="100"><p class="category">공부</p></th>
-                            <th class="recode-th" width="200">2023.8.1~2023.9.30</th>
+                            <th class="recode-th" width="120">데일리단어모임</th>
+                            <th class="recode-th" width="50"><p class="category">공부</p></th>
+                            <th class="recode-th" width="140">2023.8.1~2023.9.30</th>
+                            <th class="recode-th"><p class="rated">평가완료</p></th>
                         </tr>
                         <tr></tr>
                         <tr></tr>
@@ -110,6 +112,11 @@
                 </div>
             </div>
         </section>
-    </main> 
+    </main>
+    <script>
+        function openPopup() {
+          window.open('crew-rate-popup.html', '팝업 창', 'width=600, height=800');
+        }
+      </script> 
 </body>
 </html>
