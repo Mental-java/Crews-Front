@@ -1,0 +1,70 @@
+/* report-popup.css */
+.report-side {
+    margin: 50px;
+    display: flex;
+    flex-direction: column; /* 컨텐츠를 세로로 정렬 */
+    align-items: center;
+    padding: 20px; /* 여백 추가 */
+    border-radius: 10px; /* 테두리를 둥글게 만듭니다 */
+    width: 80%; /* 가로 길이를 조절 */
+  }
+  
+  .report-title {
+    text-align: center;
+    background-color: #000928;
+    border-radius: 5px; /* 테두리를 둥글게 만듭니다 */
+    margin-bottom: 20px; /* 제목과 양식 사이 여백 추가 */
+    width: 100%;
+  }
+
+  .title{
+    color: white;
+  }
+  
+  form {
+    text-align: center; /* 양식 요소 가운데 정렬 */
+    width: 100%; 
+  }
+  
+  .form-group-name{
+    
+    margin: 10px 0;
+    align-items: center;
+  }
+
+  .form-group-name p {
+    text-align: center; /* 가로 중앙 정렬 */
+    margin: 0; /* 기본 마진 제거 */
+  }
+  .form-group {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  label {
+    display: block; /* 라벨을 세로로 표시 */
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%; /* 양식 요소 너비 100% */
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #000928;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0038ad;
+  }
+  

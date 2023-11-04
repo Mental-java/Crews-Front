@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신고하기 팝업</title>
-    <link rel="stylesheet" href="report-popup.css"> 
+    <link rel="stylesheet" href="user-report-poppup.css"> 
 </head>
 <body>
     <div class="report-side">
@@ -15,8 +15,15 @@
         
         <form>
             <div class="form-group-name">          
-                    <p>신고 대상 : </p>
-                    <p>&nbsp;&nbsp;남궁주형</p>
+                    <p>신고 유저 : </p>
+                    <select id="reportType" name="reportType" required>
+                        <option value="욕설/모욕">남궁주형</option>
+                        <option value="스팸/도배">나미짱</option>
+                        <option value="기타">제갈동영</option>
+                        <option value="기타">세영</option>
+                        <option value="기타">영동</option>
+                        <option value="기타">주성리</option>
+                    </select>
             </div>
             <div class="form-group">
                 <label for="reportType">신고 유형</label>
