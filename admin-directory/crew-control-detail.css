@@ -1,0 +1,47 @@
+.crew-name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.crew-list{
+    padding: 50px;
+}
+
+.crew-member-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.crew-member-list th, .crew-member-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.crew-member-list th {
+    background-color: #f2f2f2;
+}
+
+.crew-member-name {
+    font-weight: bold;
+}
+
+.crew-delete {
+    margin-top: 20px;
+    background-color: #000928;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.crew-delete .delete-icon {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.crew-delete:hover {
+    background-color: #d3d3d3; /* 호버 시 배경색 변경 */
+}

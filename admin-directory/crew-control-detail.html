@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트 제목</title>
+    <link rel="stylesheet" href="admin-common.css">
+    <link rel="stylesheet" href="crew-control-detail.css">
+</head>
+<body>
+    <main>
+        <aside class="sidebar">
+            <div class="logo-container">
+                <img src="images/real-gray-logo.png" alt="메인 로고" class="logo">
+            </div><br><br><br><br>
+            <div class="menu-list">
+                <ul>
+                    <li><a href="#">공지사항 관리</a></li>
+                    <li><a href="#">크루원 관리</a></li>
+                    <li onclick="location.href='crew-control.html'"><a href="#">크루 관리</a></li>
+                    <li><a href="#">크루원 신고 관리</a></li>
+                    <li><a href="#">크루 신고 관리</a></li>
+                </ul>
+
+            </div>
+        </aside>
+        <section>
+            <div class="crew-list">
+                <div class="crew-name">코딩크루</div>
+                <table class="crew-member-list">
+                    <thead>
+                        <tr>
+                            <th>크루원 닉네임</th>
+                            <th>보석</th>
+                            <th>크루원 ID</th>
+                            <th>캡틴여부</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>남궁주형</td>
+                            <td>60</td>
+                            <td>mental1234</td>
+                            <td>O</td>
+                        </tr>
+                        <tr>
+                            <td>제갈동영</td>
+                            <td>40</td>
+                            <td>javajvav323</td>
+                            <td>x</td>
+                        </tr>
+                        <tr>
+                            <td>영동</td>
+                            <td>70</td>
+                            <td>dydydyqdjfa</td>
+                            <td>x</td>
+                        </tr>
+                        <tr>
+                            <td>셍영</td>
+                            <td>56</td>
+                            <td>sysysysew1234</td>
+                            <td>x</td>
+                        </tr>
+                        <tr>
+                            <td>주성</td>
+                            <td>49</td>
+                            <td>jsjssj238123</td>
+                            <td>x</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="crew-delete">
+                    <span class="delete-icon">크루 삭제하기</span>
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
