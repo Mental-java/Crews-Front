@@ -15,7 +15,7 @@
             </div><br><br><br><br>
             <div class="menu-list">
                 <ul>
-                    <li><a href="#">공지사항 관리</a></li>
+                    <li><a href="admin-notice.html">공지사항 관리</a></li>
                     <li><a href="#">크루원 관리</a></li>
                     <li onclick="location.href='crew-control.html'"><a href="#">크루 관리</a></li>
                     <li onclick="location.href='crewon-report-history.html'"><a href="#">크루원 신고 관리</a></li>
@@ -24,8 +24,29 @@
             </div>
         </aside>
         <section>
-            <div class>
-
+            <div class="admin-notice-detail">
+                    <div class="admin-notice-detail-info">
+                        <table>
+                            <tr>
+                                <th class="admin-detail-content" width="100">23</th>
+                                <th class="admin-detail-content" width="600">10/26일 정기점검</th>
+                                <th class="admin-detail-content" width="200">관리자</th>
+                                <th class="admin-detail-content" width="200">125</th>
+                                <th class="admin-detail-content" width="200">2023.10.24</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="admin-notice-detail-content">
+                        10/26일 정기점검이 진행될 예정입니다.<br>이 점 참고해주시길 바랍니다.
+                    </div>
+            </div>
+            <div class="admin-notice-edit-button">
+                <div class="admin-notice-edit-button1" onClick="location.href='admin-notice-edit.html'">
+                    수정하기
+                </div>
+                <div class="admin-notice-edit-button2" onClick="location.href='admin-notice-edit.html'">
+                    삭제하기
+                </div>
             </div>
         </section>
     </main>
