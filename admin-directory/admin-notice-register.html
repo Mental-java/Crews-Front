@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로젝트 제목</title>
     <link rel="stylesheet" href="admin-common.css">
+    <link rel="stylesheet" href="admin-notice-register.css">
 </head>
 <body>
     <main>
@@ -15,14 +16,29 @@
             <div class="menu-list">
                 <ul>
                     <li><a href="admin-notice.html">공지사항 관리</a></li>
-                    <li onclick="location.href='crewon-control.html'"><a href="#">크루원 관리</a></li>
+                    <li><a href="#">크루원 관리</a></li>
                     <li onclick="location.href='crew-control.html'"><a href="#">크루 관리</a></li>
-                    <li onclick="location.href='crewon-report-history.html'"><a href="#">크루원 신고 관리</a></li>
+                    <li><a href="crewon-report-history.html">크루원 신고 관리</a></li>
                     <li onclick="location.href='crew-report-history.html'"><a href="#">크루 신고 관리</a></li>
                 </ul>
-
             </div>
         </aside>
+        <section>
+            <div class="admin-notice-register">
+                <h1>공지사항 등록</h1>
+            </div>
+            <div class="admin-notice-title">
+                <h3>공지사항 제목</h3>
+                <textarea id="title-content"></textarea>
+            </div>
+            <div class="admin-notice-content">
+                <h3>공지사항 내용</h3>
+                <textarea id="content-content"></textarea>
+            </div>
+            <div class="admin-notice-register-button">
+                등록
+            </div>
+        </section>
     </main>
 </body>
 </html>
