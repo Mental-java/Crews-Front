@@ -121,3 +121,7 @@ section{
     width: 30px;
     height: 30px;
 }
+.poster{
+    overflow-y: scroll;
+    height: 380px;
+}
