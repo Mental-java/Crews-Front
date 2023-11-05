@@ -74,6 +74,8 @@
     margin-top: -20px;
     overflow-Y: scroll;
     overflow-x: hidden;
+    width: 86em;
+    clear: left;
 }
 
 .poster-name{
@@ -126,7 +128,4 @@
 
 .type-comment::placeholder{
     color: #737373;
-}
-section{
-    width: 900px;
 }
