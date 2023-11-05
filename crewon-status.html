@@ -6,7 +6,7 @@
     <title>프로젝트 제목</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="crew-main.css">
-    <link rel="stylesheet" href="crewon-value.css">
+    <link rel="stylesheet" href="crewon-status.css">
 </head>
 <body>
     <header>
@@ -58,11 +58,12 @@
             <div class="up-calender">
                 <li onclick="location.href='crew-main.html'">크루 메인 페이지</li>
                 <li onclick="location.href='crew-schedule.html'">인증게시판</li>
-                <li onclick="location.href='crewon-value.html'" class="selected">우리 크루원</li>
+                <li onclick="location.href='crewon-status.html'" class="selected">활동현황</li>
             </div>
             <br>
             <hr class="upper-line">
             <div class="crewon-value-board">
+                <img src="images/alert.png" alt="신고하기" onclick="openPopup()">
                 <p>코딩크루의 크루원들을 확인해보세요! 인증횟수가 같을 경우 보석 갯수로 순위가 정해져요</p>
             </div>
             <hr>
@@ -76,7 +77,7 @@
                 <li>
                     <hr>
                     <div class="crewon-value-lists">
-                        <p>남궁주형</p>
+                        <p>삼육이</p>
                         <div>
                             <img src="images/diamond-image.png" alt="보석">
                             <p>117</p>
