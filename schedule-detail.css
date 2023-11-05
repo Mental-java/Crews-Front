@@ -74,7 +74,9 @@
     margin-top: -20px;
     overflow-Y: scroll;
     overflow-x: hidden;
-    width: 86em;
+    padding-bottom: 0px;
+    width: 100em;
+    height: 555px;
     clear: left;
 }
 
@@ -97,6 +99,7 @@
     background-color: lightgray;
     border-radius: 5px;
     margin-left: 20px;
+    width: 100em;
 }
 
 .comment button{
