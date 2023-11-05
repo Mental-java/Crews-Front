@@ -74,6 +74,8 @@
     margin-top: -20px;
     overflow-Y: scroll;
     overflow-x: hidden;
+    width: 86em;
+    clear: left;
 }
 
 .poster-name{
