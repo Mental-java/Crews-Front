@@ -133,11 +133,16 @@
             </div>
             <br>
             <hr class="upper-line">
-            <div id='calendar'>
+            <div id='calendar'></div>
 
-            </div>
+            <script>
+              function openPopup() {
+                window.open('edit-introduction-popup.html', '팝업 창', 'width=600, height=800');
+              }
+            </script>
+
             <div class="crew-introduce">
-                <a class="edit-button" href="schedule-write.html"><img class="edit-button-logo" src="images/edit_button.png"></a>
+                <a class="edit-button" onclick="openPopup()"><img class="edit-button-logo" src="images/edit_button.png"></a>
                 <p class="intro-title">안녕하세요 코딩크루입니다.</p>
                 <p class="intro-content">저희 크루 활동기간은 1일부터 21일까지입니다.<br>다들 20일동안 화이팅.<br>코딩 인증은 하루에 한번씩! </p>
             </div>
