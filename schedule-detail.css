@@ -90,7 +90,7 @@ section{
     padding: 10px 20px;
     cursor: pointer;
     float: right;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left:982px;
 }
 
@@ -120,6 +120,7 @@ section{
 .edit_button_logo{
     width: 30px;
     height: 30px;
+    margin-left: 180px;
 }
 .poster{
     overflow-y: scroll;
