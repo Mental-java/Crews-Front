@@ -7,16 +7,22 @@
     cursor: pointer;
     color: #737373;
     text-decoration: none;
+    
+    justify-content: space-between;
 }
 
 .up-calender li.selected {
     color: black;
     text-decoration: underline;
+    
+    justify-content: space-between;
 }
 
 .upper-line{
     height: 9px;
     background-color: #000928;
+    
+    justify-content: space-between;
 }
 
 /* 소개글 */
