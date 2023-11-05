@@ -1,7 +1,10 @@
 .posting{
     float: left;
+    margin-top: -50px;
 }
-
+section{
+    width: 100vw;
+}
 .upper-line{
     height: 9px;
     background-color: #000928;
@@ -63,34 +66,10 @@
     font-size: 120%;
 }
 
-.posting-end-line{
-    clear: left;
-    height: 3px;
-    background-color: #000000;
-}
-
-.posting-detail{
-    float: left;
-    margin-top: -20px;
-    overflow-Y: scroll;
-    overflow-x: hidden;
-    padding-bottom: 0px;
-    width: 100em;
-    height: 555px;
-    clear: left;
-}
-
-.poster-name{
-    font-weight: bold;
-}
 
 .posting-date{
     margin-left: 1100px;
     color: #737373;
-}
-
-.user-detail{
-    transform: translate(18px);
 }
 
 .comment{
@@ -99,7 +78,8 @@
     background-color: lightgray;
     border-radius: 5px;
     margin-left: 20px;
-    width: 100em;
+    height: 100px;
+    width: 80vw;
 }
 
 .comment button{
@@ -111,7 +91,7 @@
     cursor: pointer;
     float: right;
     margin-top: 5px;
-    margin-left: 1110px;
+    margin-left:982px;
 }
 
 .comment button:hover{
@@ -131,4 +111,17 @@
 
 .type-comment::placeholder{
     color: #737373;
+}
+.edit_button{
+    width: 30px;
+    height: 30px;
+    margin-left: 700px;
+}
+.edit_button_logo{
+    width: 30px;
+    height: 30px;
+}
+.poster{
+    overflow-y: scroll;
+    height: 380px;
 }
