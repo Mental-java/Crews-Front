@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트 제목</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="top-box">
+            
+        </div>
+        <nav>
+            
+            <div class="logo-container">
+                <img src="images/crews-logo.png" alt="메인 로고">
+            </div>
+            
+            <ul>
+                <li onclick="location.href='main-page.html'"><a href="#">내 캘린더</a></li>
+                <li onclick="location.href='notice-main.html'"><a href="#">공지사항</a></li>
+                <li onclick="location.href='crew-search.html'"><a href="#">크루 찾기</a></li>
+                <li onclick="location.href='mypage.html'"><a href="#">나의 활동</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+
+    <main>
+        <aside>
+            <div class="sidebar">
+                <div class="user-info">
+                    <img src="images/level-image.png" alt="1레벨 이미지">
+                    <p class="user-name">크루원 123455</p>
+                    <div class="diamond-info">
+                        <img src="images/diamond-image.png" alt="보석">
+                        <p class="image-number">:&nbsp;&nbsp;<p>42</p></p>
+                    </div>
+                    <div class="logout-button">
+                        <button>로그아웃</button>
+                    </div>
+                    <div class="crew-list">
+                        <h2>내 크루 목록</h2>
+                        <ul>
+                            <li><a href="crew-main.html">코딩크루</a></li>
+                            <li><a href="crew-main.html">크루 2</a></li>
+                            <li><a href="crew-main.html">크루 3</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="introduce-box"></div>
+        </aside>
+        <section>
+            <h1>크루 만들기</h1>
+        
+            <form>
+        
+                <p>크루 유형:</p>
+                
+                <input class="radio-input" type="radio" id="운동" name="crewType" value="운동" checked>
+                <label class="radio-label" for="운동">운동</label>
+                
+                <input class="radio-input" type="radio" id="공부" name="crewType" value="공부">
+                <label class="radio-label" for="공부">공부</label>
+        
+                <input class="radio-input" type="radio" id="습관" name="crewType" value="습관">
+                <label class="radio-label" for="습관">습관</label>
+                
+                <input class="radio-input" type="radio" id="기타" name="crewType" value="기타">
+                <label class="radio-label" for="기타">기타</label>
+                     
+                <div class="team-and-date">
+                    <div class="team-name">
+                        <p>팀 이름:</p>
+                        <input type="text" id="teamName" name="teamName" value="굿모닝" required>
+                    </div>
+                    
+                    <div class="date-input">
+                        <p>날짜:</p>
+                        <input type="date" id="startDate" name="startDate" required value="2023-11-01">
+                        <span class="date-separator">~</span>
+                        <input type="date" id="endDate" name="endDate" required value="2024-01-01">
+                    </div>
+                </div>
+        
+
+                <div class="title-and-status">
+                    <div class="title-input">
+                        <p>공고 제목:</p>
+                        <input type="text" id="advertisementTitle" name="advertisementTitle" required value="매일 아침 6시 러닝 크루">
+                    </div>
+
+                    <div class="status-select">
+                        <p>모집 상태:</p>
+                        <select id="recruitmentStatus" name="recruitmentStatus">
+                            <option value="모집중">모집중</option>
+                            <option value="모집 종료">모집 종료</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="recruitment-content">
+                    <div class="left-content">
+                        <p>모집 내용:</p>
+                        <textarea id="recruitmentContent" name="recruitmentContent" required rows="6" cols="30"> 
+소개글<br>
+매일 아침 일찍 일어나는 습관을 만드는 크루입니다.<br><br>
+                        
+크루 목표 : 습관 만들기<br>
+크루 일정 : 올해 12/31 까지<br>
+인원 : 20명<br>
+인원이 다 차지 않아도 조기에 마감될 수 있습니다.<br><br>
+                        
+문의 : 오픈채팅 http1234/mental1234
+                        </textarea>
+                    </div>
+                    
+                </div>
+                <div class="submit-button">
+                    <button type="submit">등록</button>
+                </div>
+                
+                
+            </form>
+        </section>
+        
+    </main> 
+</body>
+</html>
