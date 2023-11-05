@@ -53,3 +53,9 @@ td:nth-child(1) {
 td:nth-child(2) {
     font-style: italic;
 }
+
+.crew-control-page{
+    width: 150px;
+    height: 30px;
+    margin: auto;
+}
