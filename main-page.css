@@ -41,28 +41,28 @@
 }
 
 .calendar-date p{
-    text-align: center; /* 텍스트를 중앙에 배치 */
+    text-align: center;
     color: white;
-    font-size: 40px; /* 글꼴 크기 설정 */
+    font-size: 40px;
     line-height: 30px;
 }
 
 .todo-list {
-    list-style: inside; /* 빨간색 점을 리스트 앞에 추가 */
-    display: block; /* 리스트를 수직으로 배치 */
-    padding-left: 0; /* 리스트의 왼쪽 간격 제거 */
+    list-style: inside;
+    display: block;
+    padding-left: 0;
 }
 
 .todo-list li {
-    list-style: none; /* 리스트 아이템에서 기본 불릿 제거 */
-    display: flex; /* 리스트 아이템을 수평으로 배치 */
-    align-items: center; /* 텍스트를 세로 가운데 정렬 */
+    list-style: none;
+    display: flex;
+    align-items: center;
     margin-top: 5px;
 }
 
 .todo-list li::before {
-    content: "\2022"; /* 빨간색 점을 Unicode 문자로 설정 */
-    color: red; /* 빨간색으로 설정 */
-    margin-right: 10px; /* 빨간색 점과 텍스트 간격 조절 */
+    content: "\2022";
+    color: red;
+    margin-right: 10px;
 }
 

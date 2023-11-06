@@ -38,5 +38,6 @@ th{
 }
 
 .list-table th:nth-child(2):hover {
+    cursor: pointer;
     text-decoration: underline;
 }

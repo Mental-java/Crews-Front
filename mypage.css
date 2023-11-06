@@ -49,6 +49,10 @@
 .recode-tr{
     height: 15px;
 }
+.recode-tr th:nth-child(4) p:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 .category{
     background-color: #000928;
     border-radius: 10px;
@@ -105,4 +109,8 @@
 }
 .page{
     text-align: center;
+}
+.notice-list th:nth-child(2):hover {
+    cursor: pointer;
+    text-decoration: underline;
 }

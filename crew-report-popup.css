@@ -2,18 +2,18 @@
 .report-side {
     margin: 50px;
     display: flex;
-    flex-direction: column; /* 컨텐츠를 세로로 정렬 */
+    flex-direction: column;
     align-items: center;
-    padding: 20px; /* 여백 추가 */
-    border-radius: 10px; /* 테두리를 둥글게 만듭니다 */
-    width: 80%; /* 가로 길이를 조절 */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
   }
   
   .report-title {
     text-align: center;
     background-color: #000928;
-    border-radius: 5px; /* 테두리를 둥글게 만듭니다 */
-    margin-bottom: 20px; /* 제목과 양식 사이 여백 추가 */
+    border-radius: 5px;
+    margin-bottom: 20px;
     width: 100%;
   }
 
@@ -22,7 +22,7 @@
   }
   
   form {
-    text-align: center; /* 양식 요소 가운데 정렬 */
+    text-align: center;
     width: 100%; 
   }
   
@@ -33,8 +33,8 @@
   }
 
   .form-group-name p {
-    text-align: center; /* 가로 중앙 정렬 */
-    margin: 0; /* 기본 마진 제거 */
+    text-align: center;
+    margin: 0;
   }
   .form-group {
     margin: 10px 0;
@@ -42,13 +42,13 @@
   }
   
   label {
-    display: block; /* 라벨을 세로로 표시 */
+    display: block;
   }
   
   input[type="text"],
   select,
   textarea {
-    width: 100%; /* 양식 요소 너비 100% */
+    width: 100%;
     padding: 5px;
     margin-top: 5px;
   }

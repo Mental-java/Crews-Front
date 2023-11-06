@@ -1,10 +1,10 @@
 /* 크루 찾기 섹션 스타일링 */
 section .crew-search {
-    border: 2px solid #000928; /* 테두리 스타일과 색상 설정 */
-    border-radius: 10px; /* 약간 둥근 모서리 설정 */
+    border: 2px solid #000928;
+    border-radius: 10px;
     padding: 10px;
     display: flex;
-    justify-content: flex-start; /* ul을 왼쪽에 정렬합니다. */
+    justify-content: flex-start;
 }
 
 /* 크루 카테고리 목록 스타일링 */
@@ -15,25 +15,25 @@ section .crew-search {
 }
 
 .crew-categories li {
-    padding: 15px 30px; /* 크기를 조절 */
-    margin-right: 10px; /* 간격을 벌립니다. */
+    padding: 15px 30px;
+    margin-right: 10px;
     border-radius: 20px;
     cursor: pointer;
 }
 
 /* 선택된 카테고리 스타일링 */
 .crew-categories li.selected {
-    background-color: #000928; /* 선택된 카테고리의 배경색 설정 */
-    color: #fff; /* 선택된 카테고리의 텍스트 색상 설정 */
+    background-color: #000928;
+    color: #fff;
 }
 
 /* 크루 찾기 섹션 스타일링 */
 section .crew-search {
-    border: 2px solid #000928; /* 테두리 스타일과 색상 설정 */
-    border-radius: 10px; /* 약간 둥근 모서리 설정 */
+    border: 2px solid #000928;
+    border-radius: 10px;
     padding: 10px;
     display: flex;
-    justify-content: flex-start; /* ul을 왼쪽에 정렬합니다. */
+    justify-content: flex-start;
 }
 
 .crew-categories {
@@ -59,7 +59,7 @@ section .crew-search {
 }
 
 .search-bar input {
-    flex: 1; /* 입력 필드가 가능한 모든 공간을 차지하도록 설정 */
+    flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -82,8 +82,8 @@ section .crew-search {
     border-radius: 10px;
     padding: 10px;
     display: flex;
-    justify-content: space-between; /* 오른쪽 끝에 배치 */
-    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* 크루 검색창 스타일링 */
@@ -102,12 +102,12 @@ section .crew-search {
     margin-right: 5px; 
 }
 .recruitment-status {
-    float: left; /* 왼쪽으로 배치 */
-    margin-right: 10px; /* 오른쪽 여백 추가 */
+    float: left;
+    margin-right: 10px;
 }
 
 .recruitment-status li.selected {
-    background-color: #000928; /* 선택된 카테고리의 배경색 설정 */
+    background-color: #000928;
     color: #fff;
 }
 
@@ -126,9 +126,10 @@ section .crew-search {
 .create-crew-button:hover {
     background-color: #007bff;
 }
+
 /* 크루 검색창 스타일링 */
 .recruitment {
-    padding: 20px; /* 높이와 너비를 조절합니다 */
+    padding: 20px;
     padding-top: 20px;
 }
 
@@ -136,7 +137,7 @@ section .crew-search {
     padding: 20px;
     display:flex;
     align-items: center;
-    border-top: 1px solid #000; /* 위 테두리 추가 */
+    border-top: 1px solid #000;
 }
 
 
@@ -144,7 +145,7 @@ section .crew-search {
     background-color: #000928;
     font-weight: bold;
     color: white;
-    padding: 5px 10px; /* 패딩을 추가하여 요소의 크기를 조절 */
+    padding: 5px 10px;
     border-radius: 10px;  
     margin-right: 10px;
 }
@@ -153,7 +154,7 @@ section .crew-search {
     background-color: #ADADAD;
     font-weight: bold;
     color: white;
-    padding: 5px 10px; /* 패딩을 추가하여 요소의 크기를 조절 */
+    padding: 5px 10px;
     border-radius: 10px;  
     margin-right: 10px;
 }
@@ -167,7 +168,7 @@ section .crew-search {
 }
 
 .Posting-Title {
-    margin-top: 0; /* 위쪽 마진 제거 */
+    margin-top: 0;
 }
 
 .Posting-Title h1 {
